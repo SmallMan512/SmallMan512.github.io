@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 960px;
+    position: relative;
+    left: 50%;
+    margin-left: -481px;
+    border: 1px solid #d8dbda;
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.header{
+    height: 100px;
+    margin-bottom: 7px;
+}
+.footer{
+    height: 80px;
+    border-top:3px darkgray solid;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+
+}
+.header{
+    margin-top: 20px;
+    border: none;
+}
+.container{
+    float: left;
+    border: none;
+    margin-bottom: 5px;
+}
+.left{
+    float:left;
+    width: 720px;
+    border: none;
+    margin-right: 5px;
+}
+.left_top{
+    float: left;
+    width: 718px;
+    height: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-bottom:2px darkgray solid;
+    border-right:1px darkgray solid;
+}
+.right{
+    float: right;
+    width:233px;
+    height: 501px;
+    border-right:1px darkgray solid;
+}
+.left_cont{
+    float: left;
+    width: 238px;
+    height:394px;
+    border-left: 1px #9ca1a2 solid;
+}
+.footer{
+    clear: both;
+}
+.new_1{
+    float: right;
+    width: 472px;
+    height:395px;
+    border-left: 1px #9ca1a2 solid;
+    border-right: 1px #9ca1a2 solid;
+}
+.header img{
+     float: left;
+ }
+h1{
+    padding: 5px 0 0 0;
+    float: left;
+    margin-top: 37px;
+    color: coral;
+}
+
+.headertop{
+    float: right;
+    border: none;
+    height: 100px;
+}
+.headertop p{
+    margin-top: 60px;
+    position:relative;
+    left: 65px;
+}
+
+.headertop span a:link,a:visited{
+    text-decoration: none;
+    color: black;
+}
+.headertop span a:active,a:hover{
+    text-decoration: none;
+    color: #db341d;
+
+}
+.headertop input{
+    width: 100px;
+    border-radius: 20px;
+}
+.left_top ul{
+    list-style: none;
+   margin-left: 100px;
+    margin-top: 45px;
+}
+.left_top ul li{
+    display: inline;
+    padding: 15px;
+    background-image: url("../images/bgz.jpg");
+    background-repeat: no-repeat;
+    padding :5px 15px;
+}
+
+.left_top ul li a:link,a:visited{
+    color: coral;
+    font-size: 18px;
+    text-decoration: none;
+}
+.left_top ul li a:hover,a:active{
+    color: #3142ff;
+}
+.left_cont img{
+    width: 238px;
+    height: 394px;
+    border-radius: 30px;
+}
+.new_1 p,h4{
+    text-indent: 20px;
+    padding: 20px;
+
+}
+.right p{
+    padding: 15px;
+}
+.right p a:link,a:visited{
+    color: #7f40ff;
+}
+.right p a:hover,a:active{
+    color: coral;
+}
+.right h3{
+    padding: 20px;
+    text-align: center;
+}
+

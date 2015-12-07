@@ -3,26 +3,32 @@
     padding: 0px;
 }
 body{
-    width: 90%;
+    /*min-width: 1200px;*/
+    width: 1200px;
+    margin: 0 auto;
     position: relative;
-    left: 50%;
-    margin-left: -45%;
+    /*left: 50%;*/
+    /*margin-left: -600px;*/
+    border: 1px solid #d8dbda;
     background: url(../image/bg.jpg) no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     text-align:center;
-    /*border: 1px solid #040300;*/
+}
+.continue{
+    width: 100%;
+    height: auto;
 }
 .index{
     position: relative;
-    width: 1300px;
+    width: 100%;
     height: 130px;
     /*background-color: #2f44de;*/
 }
 .header{
     position: fixed;
-    z-index: 999;
-    width:90%;
+    z-index: 9999;
+    width:1200px;
     height:50px;
     color: #ffffff;
     background-color: #0b0507;
@@ -30,7 +36,7 @@ body{
 }
 .header2{
     position:absolute;
-    width: 93.5%;
+    width: 100%;
     height:80px;
     background-color:transparent;
     opacity: 0.8;
@@ -38,45 +44,11 @@ body{
     border-bottom: 2px solid;
 }
 .header2 .cul{
-   position: relative;
-   /*opacity: 1;*/
-    left: 50%;
-    margin-left: -50%;
+    position: relative;
+    /*left: 50%;*/
+    /*margin-left: -50%;*/
     bottom: -28px;
 }
-/*.header2 .cul{*/
-    /*margin-bottom: 0px;*/
-    /*position: relative;*/
-    /*top:60px;*/
-/*}*/
-/*.header2 .cul li{*/
-    /*display: inline;*/
-    /*padding:5px 15px;*/
-    /*border:1px solid black;*/
-    /*text-align: center;*/
-    /*font-size: 30px;*/
-/*}*/
-/*.link a:link{*/
-    /*text-decoration: none;*/
-    /*color: black;*/
-/*}*/
-/*.link a:hover{*/
-    /*text-decoration: underline;*/
-    /*color: blue;*/
-    /*display: block;*/
-/*}*/
-/*.link a:visited{*/
-    /*text-decoration: underline;*/
-    /*color: #a745ff;*/
-/*}*/
-/*.link a:active{*/
-    /*text-decoration: underline;*/
-    /*color: #fffd22;*/
-/*}*/
-/*.header2{*//*当然，宽度可以你自己定义*/
-    /*width: 100%;*/
-    /*margin: 0;*/
-/*}*/
 .header2 ul{/*这里必须设置内边距和外边距，因为浏览器会自动给ul设定值，会把导航栏挤歪*/
     padding:0px;
     margin: 0px;
@@ -90,7 +62,7 @@ body{
     display: block;
     text-align: center;
     text-decoration: none;/*不对文本设置效果 */
-    width: 202px;/*每一块的宽度*/
+    width :199px;/*每一块的宽度*/
     height: 50px;/*每一块的高度*/
     color: black;/*文字颜色 */
     border: 1px solid #fff;/*边框大小和颜色 */
@@ -111,7 +83,7 @@ body{
     position: absolute;
     top: 51px;
     left: 0;
-    width: 185px;
+    width: 200px;
 }
 .header2 ul li:hover ul li a {/*这里当然是定义下拉菜单里的a标签了*/
     display: block;
